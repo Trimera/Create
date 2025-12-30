@@ -12,9 +12,10 @@ plugins {
 sourceCompatibility = JavaVersion.VERSION_17
 targetCompatibility = JavaVersion.VERSION_17
 
+// 上传时记得改回去
 String runNumber = System.getenv("GITHUB_RUN_NUMBER")
-String build = runNumber != null ? "build.$runNumber" : "local"
-version = "$mod_version-$build+mc$minecraft_version"
+// String build = runNumber != null ? "build.$runNumber" : "local"
+version = "$mod_version+mc$minecraft_version-mechanicalArm-fix"
 
 group = project.maven_group
 archivesBaseName = "create-fabric"

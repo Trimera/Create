@@ -88,7 +88,8 @@ public class InvManipulationBehaviour extends CapManipulationBehaviourBase<ItemV
 		if (inventory == null)
 			return stack;
 		try (Transaction t = TransferUtil.getTransaction()) {
-			long inserted = inventory.insert(ItemVariant.of(stack), stack.getCount(), t);
+			if (stack.isEmpty() || stack.getCount() <= 0) return ItemStack.EMPTY;
+				long inserted = inventory.insert(ItemVariant.of(stack), stack.getCount(), t);
 			if (!shouldSimulate) t.commit();
 			long remainder = stack.getCount() - inserted;
 			if (remainder == 0)
