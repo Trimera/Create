@@ -298,7 +298,7 @@ public class ArmBlockEntity extends KineticBlockEntity implements TransformableB
 		// start at 0;
 		int startIndex = selectionMode.get() == SelectionMode.PREFER_FIRST ? 0 : lastOutputIndex + 1;
 
-		// if we enforce round robin, only look at the next index in the list,
+		// if we enforce round robin, only look at the next index in the list,f
 		// otherwise, look at all
 		int scanRange = selectionMode.get() == SelectionMode.FORCED_ROUND_ROBIN ? lastOutputIndex + 2 : outputs.size();
 		if (scanRange > outputs.size())
