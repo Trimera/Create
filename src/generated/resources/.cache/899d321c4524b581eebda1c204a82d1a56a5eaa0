@@ -1,4 +1,4 @@
-// 1.20.1	2025-12-30T10:23:23.731944366	Create/Create's Processing Recipes
+// 1.20.1	2025-12-30T12:34:50.215942093	Create/Create's Processing Recipes
 5808443b01181b490a80f1c6053c95b6eee4823f data/create/recipes/milling/sea_pickle.json
 67a9c5193ff68373689593e885f6b838931908b1 data/create/recipes/cutting/compat/byg/zelkova_log.json
 1230f449873262e79585752d3430e5f7f383bcb2 data/create/recipes/deploying/large_cogwheel.json
@@ -6,8 +6,8 @@ a91dae829938d3f69a7007d3cf8db02b70fe3a7f data/create/recipes/milling/white_tulip
 1e954241dc938a14e9a9162ea7c6edb688157e85 data/create/recipes/cutting/compat/ars_nouveau/stripped_blue_archwood_wood.json
 e9a4cfd26c8e444148234e7b3e1b29cfaf6c0aba data/create/recipes/milling/compat/byg/pink_allium.json
 7380f3d6073a19157a07647a2ccf68e49c90c6a9 data/create/recipes/cutting/compat/twilightforest/stripped_dark_log.json
-2d27ce9ccf21afa759bcc555f0cf62a343649006 data/create/recipes/cutting/compat/integrateddynamics/menril_log_stripped.json
 c26b9f1ea42b0fab2d4f6389034fc940f350087d data/create/recipes/cutting/compat/biomesoplenty/jacaranda_wood.json
+2d27ce9ccf21afa759bcc555f0cf62a343649006 data/create/recipes/cutting/compat/integrateddynamics/menril_log_stripped.json
 6178f0fa72e1a2382674a82353f2c2de34175b05 data/create/recipes/cutting/compat/the_vault/stripped_wooden_log.json
 dec980d88cb2f40786666e8dbb8765e1a8919aae data/create/recipes/cutting/compat/twilightforest/transformation_log.json
 0826814da0167686200747e46a63cfaf7f2d606d data/create/recipes/milling/compat/botania/light_gray_petal.json

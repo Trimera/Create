@@ -1,4 +1,4 @@
-// 1.20.1	2025-12-30T10:23:23.734387632	Create/Create's Standard Recipes
+// 1.20.1	2025-12-30T12:34:50.219184466	Create/Create's Standard Recipes
 8b0f0b4342adbd3466c81298c87b5ed8993c3636 data/create/advancements/recipes/misc/crafting/appliances/clipboard.json
 2c2639c7b307ee7c7a4e97e5efebf496788998ad data/create/advancements/recipes/combat/crafting/appliances/netherite_backtank_from_netherite.json
 264fb0e92fe71a3b2eb319a2714aaf801b6ebd4e data/create/recipes/crafting/kinetics/super_glue.json
@@ -84,8 +84,8 @@ be87c0108dae97d6bcb637715749b96fbc656002 data/create/recipes/crafting/kinetics/f
 395f677a963a30edf4b8a98e02dad454457e37f7 data/create/advancements/recipes/misc/crafting/kinetics/fluid_pipe_vertical.json
 355d65ca635d657423dab36c22bfb6cdb6c66d67 data/create/recipes/crafting/kinetics/mechanical_crafter.json
 aafb7509c987e970bc936d095634df1547de585d data/create/advancements/recipes/misc/smelting/silver_ingot_compat_modern_industrialization.json
-e91e90eb6b7d2f8f5c14b6b8d5d06834bb388ff7 data/create/recipes/crafting/kinetics/rope_pulley.json
 602e7e58b733fbd948aeb6f1a43de49c38617d2f data/create/recipes/crafting/kinetics/sticker.json
+e91e90eb6b7d2f8f5c14b6b8d5d06834bb388ff7 data/create/recipes/crafting/kinetics/rope_pulley.json
 8942f88483f98359f45d9668b877fb4a048e290d data/create/recipes/smelting/silver_ingot_compat_oreganized.json
 e918e8844c6ef4f5adcc95665a05f64c5372abcc data/create/advancements/recipes/misc/crafting/kinetics/metal_girder.json
 c2644263571eb8a14ed535c1e88924a6098e2e6f data/create/recipes/crafting/kinetics/vertical_gearbox.json
