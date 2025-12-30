@@ -293,6 +293,13 @@ public class ArmBlockEntity extends KineticBlockEntity implements TransformableB
 	protected void searchForDestination() {
 		ItemStack held = heldItem.copy();
 
+		// If the arm is not holding anything, searching for an output makes crash.
+		// Reset to input phase to avoid getting stuck.
+		if (held.isEmpty()) {
+			phase = Phase.MOVE_TO_INPUT;
+			return;
+		}
+
 		boolean foundOutput = false;
 		// for round robin, we start looking after the last used index, for default we
 		// start at 0;
